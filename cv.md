@@ -24,3 +24,58 @@ on well with people, overcome stressful
 situations with  confidence  , find simple
 solutions for the difficult situations and
 have a huge amount of motivation and a desire to learn.
+
+## Skills
+***
+- Core technologies: **JavaScript, HTML, Css, Node.js**
+- Frameworks: **Express, React**
+- Additional technologies: **Less, Sass, Gulp, Webpack, Material-UI, Git, Redux**
+- Development tools: **WebStorm, Zeplin, Photoshop, Figma**
+
+## Code example
+***
+```
+//realization of the observer pattern
+export default class Observer {
+  constructor() {
+    this._observers = [];
+  }
+
+  addObserver(observer) {
+    this._observers.push(observer);
+  }
+
+  removeObserver(observer) {
+    this._observers = this._observers.filter((existedObserver) => existedObserver !== observer);
+  }
+
+  _notify(event, payload) {
+    this._observers.forEach((observer) => observer(event, payload));
+  }
+}
+```
+## Education
+***
+
+### Belarusian State  University of Informatics and Electronics (2010-2015)
+(Micro- and Nanoelectronics)
+
+## Additional education
+***
+### Projects
+### **english-pro** *Lending website about English teaching*
+* [**source**](https://github.com/DmitryPateew/english-pro)
+* [**web site**](http://english-pro.by/)
+### Udemy
+*  **Node.js**, *practical course*
+###  HTML Academy:
+*  [**React**. *Development of Complex Front-end Applications*](https://github.com/DmitryPateew/1320127-six-cities-5)
+*  [**JavaScript**. *Architecture of Front-end Applications*](https://github.com/DmitryPateew/1320127-cinemaddict-12)
+*  [**JavaScript**. *Professional Development of Web Interfaces*](https://github.com/DmitryPateew/1320127-keksobooking-20)
+*  [**HTML & CSS**, *level 2*](https://github.com/DmitryPateew/1320127-cat-energy-19)
+*  [**HTML & CSS**, *level 1*](https://github.com/DmitryPateew/1320127-technomart-27)
+
+
+## English
+***
+### Level: B1
